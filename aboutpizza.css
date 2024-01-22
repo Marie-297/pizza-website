@@ -1,0 +1,27 @@
+.image-h {
+  position: relative;
+}
+.h-image {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+}
+.header {
+  width: 100%;
+}
+.hhh {
+  text-align: center;
+}
+.para {
+  font-size: 20px;
+}
+.pizzatypes {
+  display: flex;
+  justify-content: space-around !important;
+  
+
+  
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order form</title>
+  <link rel="stylesheet" href="../bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+     <div class="container">
+      <form>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Your first name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" id="Surname" aria-describedby="emailHelp" placeholder="Your last name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" id="location" aria-describedby="emailHelp" placeholder="Your Location">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="tel" class="form-control" id="Phone" aria-describedby="emailHelp" placeholder="Your Phone Number">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="pizzatypes">Which Type of pizza are You Ordering?</label>
+            <select name="pizzatypes" id="pizzatypes">
+              <option value="meat lovers">Meat Lovers Pizza</option>
+              <option value="vegetables lovers">Vegetables Pizza</option>
+              <option value="BBQ lovers">BBQ Pizza</option>
+              <option value="special lovers">Our Special Pizza</option>
+              <option value="none">None</option>
+            </select>
+          </div>
+        </div>
+      </form>
+     </div>
+  </div>
+
+  <script src="../bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

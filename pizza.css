@@ -1,0 +1,124 @@
+.navv {
+  display: flex;
+  justify-content: space-between;
+  background-color: darkred;
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 70px;
+}
+a {
+  color: white;
+}
+
+.bar-icon {
+  border-color: darkred;
+  color: darkred;
+}
+video {
+  width: 100%;
+  height: 400px;
+  background-color: brown;
+}
+.big-image {
+  height: 700px;
+}
+
+.div-images {
+  width: 600px;
+  height: 370px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.card-1 {
+  height: 300px;
+}
+
+.row-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+
+.pizza-logo, .ha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.figure {
+  display: flex;
+  flex-direction: column;
+}
+.figure-img {
+  height: 300px;
+}
+.hb {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: red;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.flex-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: lightgrey;
+
+}
+.subscribe-button:hover {
+  background-color: white;
+  color: darkred;
+  cursor: pointer;
+}
+  
+.haa {
+  background-color: rgb(56, 2, 2);
+  color: white !important;
+  text-align: center;
+  font-size: 30px;
+}
+.footers {
+  column-gap: 30px;
+  color: white;
+ 
+}
+footer {
+  background-color: rgb(118, 0, 0);
+  padding: 20px 0;
+}
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+
+}
+
+.promo {
+  row-gap: 20px;
+  flex-direction: column;
+  align-items: center important;
+
+}
+
+a:active a:visited .active {
+  border-bottom: 2px solid black;
+}
+
+.workinghrs {
+  display: flex;
+  flex-direction: column;
+}
+
+
